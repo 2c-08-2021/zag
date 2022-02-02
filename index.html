@@ -10,7 +10,7 @@
 		{
 			var liczba = document.getElementById("pole").value;
 			
-			if (liczba==3) document.getElementById("wynik").innerHTML="Prawidłowa odpowiedź!";
+			if (liczba=="litera m") document.getElementById("wynik").innerHTML="Prawidłowa odpowiedź!";
 		
 			else document.getElementById("wynik").innerHTML="Spróbuj jeszcze raz :(";
 		
@@ -19,7 +19,7 @@
 		{
 			var liczba = document.getElementById("pol").value;
 			
-			if (liczba==9) document.getElementById("wynik1").innerHTML="Dobrze!";
+			if (liczba=="echo") document.getElementById("wynik1").innerHTML="Dobrze!";
 		
 			else document.getElementById("wynik1").innerHTML="Nie tym razem :(";
 		
@@ -37,7 +37,7 @@
 		{
 			var liczba = document.getElementById("pole2").value;
 			
-			if (liczba=="jutro") document.getElementById("wynik3").innerHTML="Super!";
+			if (liczba==4) document.getElementById("wynik3").innerHTML="Super!";
 		
 			else document.getElementById("wynik3").innerHTML="Próbuj dalej :(";
 		
@@ -59,14 +59,14 @@
 <h1 style="text-align: center; ">Zagadki</h1>
 <p >
 <h2>Zagadka nr 1</h2>
-<h3>Szły gęsi gęsiego – jedna za drugą. Ile było gęsi?</h3>
+<h3>Co występuje raz w minucie dwa razy w momencie ale nigdy w tysiącu lat?</h3>
 	<input type="text" id="pole" />
 	<input type="image" src="lupa.png" value onclick="sprawdz()"/>
 	<div id="wynik"></div>
 	</p>
 <p style="padding:5px; ">
 <h2>Zagadka nr 2</h2>
-<h3>Jeśli dwa to towarzystwo, a trzy to tłum, to ile to cztery i pięć?</h3>
+<h3>Co nie może mówić, ale zawsze odpowie, gdy się do niego powie?</h3>
 <input type="text" id="pol" />
 	<input type="image" src="lupa.png" value onclick="sprawd()"/>
 	<div id="wynik1"></div>
@@ -81,7 +81,7 @@
 	</p>
 	<p style="padding:5px; ">
 	<h2>Zagadka nr 4</h2>
-<h3>Zawsze przyjdzie, ale nigdy nie przyjdzie dzisiaj. Co to takiego? </h3>
+<h3>W pokoju są 4 kąty i kilka kotów. Każdy z kotów widzi pozostałe koty w trzech pozostałych kątach pokoju. Ile jest kotów?  </h3>
 
 <input type="text" id="pole2" />
 	<input type="image" src="lupa.png" value onclick="sprawdz2()"/>
